@@ -45,7 +45,7 @@
 		"releaseDraft": false
 	},
 	"build": {
-		"appId": "com.company.AppName",
+		"appId": "com.nets-intranets.buzz",
 		"mac": {
 			"category": "public.app-category.social-networking",
 			"darkModeSupport": true
