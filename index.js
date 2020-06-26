@@ -15,6 +15,7 @@ contextMenu();
 
 // Note: Must match `build.appId` in package.json
 app.setAppUserModelId('com.nets-intranets.buzz');
+autoUpdater.requestHeaders = { "PRIVATE-TOKEN": "1f7fde198d37fe83ce195b544aa4cd31edbddf8a" }
 
 // Uncomment this before publishing your first version.
 // It's commented out as it throws an error if there are no published versions.
