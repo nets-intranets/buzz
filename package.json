@@ -1,14 +1,14 @@
 {
-	"name": "app-name",
-	"productName": "App Name",
+	"name": "intranets-buzz-desktop",
+	"productName": "Buzz - Group IT Onboarding",
 	"version": "0.0.0",
 	"description": "The best app ever",
 	"license": "MIT",
-	"repository": "sindresorhus/electron-boilerplate",
+	"repository": "nets-intranets/buzz",
 	"author": {
-		"name": "Your Name",
-		"email": "user@gmail.com",
-		"url": "https://sindresorhus.com"
+		"name": "Niels Gregers Johansen",
+		"email": "ngjoh@nets.eu",
+		"url": "https://nets-intranets.com"
 	},
 	"scripts": {
 		"postinstall": "electron-builder install-app-deps",
@@ -17,6 +17,7 @@
 		"start": "electron .",
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder --macos --linux --windows",
+		"dist-win": "electron-builder  --windows",
 		"release": "np"
 	},
 	"dependencies": {
