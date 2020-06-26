@@ -18,7 +18,8 @@
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder --macos --linux --windows",
 		"dist-win": "electron-builder  --windows",
-		"release": "np"
+		"release": "np",
+		"release-patch": "np patch --yolo "
 	},
 	"dependencies": {
 		"electron-context-menu": "^0.15.0",
